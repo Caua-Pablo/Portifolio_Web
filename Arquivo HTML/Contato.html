@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Entre em Contato Comigo</title>
+	<link rel="stylesheet" href="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Estilos/Contato.css">
+	<script>
+		function Enviar() {
+
+var nome = document.getElementById("nomeid");
+
+if (nome.value != "") {
+	alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+}
+
+}
+	</script>
+</head>
+<body>
+
+
+	<link rel="stylesheet" href=
+	"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Estilos/principal.css">
+	<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+	
+	</head>
+	<body>
+	
+	<!--Código dos Menus
+	*Botão para modo escuro e modo Claro
+	*Diminuir espaço do bem vindo 
+	-->
+	
+	<div class="logomarca">
+		<img src="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Imagens/Logomarca.png" alt="logomarcaa">
+	</div>		
+	
+	
+		<nav class="menu">
+			
+			<ul>
+		
+				<li>
+					<a href="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Arquivo HTML/Página Inicial.html"><h3>Página Inicial</h3></a>
+				</li>
+				<li>
+					<a href="#"><h3>Blogs Sobre Tecnologia</h3></a>
+						<ul>
+							<li><a href="#"><h4>Artigos Pessoais</h4></a></li>
+							<li><a href="#"><h4>Ultimas Noticias</h4></a></li>
+							<li><a href="#"><h4>Tutoriais e Dicas</h4></a></li>
+							<li><a href="#"><h4>O Que É?</h4></a></li>
+						</ul>
+				</li>
+				<li>
+					<a href="#"><h3>Atividades da Faculdade</h3></a>
+						<ul>
+							<li><a href="#"><h4>Complexidade de Algoritmos</h4></a></li>
+							<li><a href="#"><h4>Materia X</h4></a></li>
+							<li><a href="#"><h4>Materia X</h4></a></li>
+							<li><a href="#"><h4>Materia X</h4></a></li>
+						</ul>
+				</li>
+	
+	
+	
+	
+				<li>
+					<a href="#"><h3>Entre em Contato Comigo</h3></a>
+				</li>
+			</ul>
+		</nav>
+	
+
+	<form name="meu_form">
+
+		<h1>Entre em contato</h1>
+	  
+		<input type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="nome" />
+		<label for="nome">Nome</label>
+	  
+		<input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+		<label for="fone">Fone</label>
+	  
+		<input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+		<label for="email">Email</label>
+	  
+		<textarea placeholder="Deixe sua opnião"></textarea>
+	  
+		<input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+	  </form>
+
+
+
+	<section>
+		<div class="footer_final">
+			<footer>
+				<p>&copy; 2023 - Todos os direitos reservados</p>
+				<nav>
+					<ul>
+						<li><a href="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Arquivo HTML/termos.html">Termos de uso</a></li>
+						<li><a href="#">Política de privacidade</a></li>
+						<li><a href="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Arquivo HTML/Página Inicial.html">Sobre mim</a></li>
+						<li><a href="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Arquivo HTML/Contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div>
+
+
+
+	</nav>
+</section>
+
+</body>
+</html>

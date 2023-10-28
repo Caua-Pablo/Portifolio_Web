@@ -1,0 +1,345 @@
+
+/*Globais*/
+
+:root {
+    --cor-fundo: rgb(34, 41, 37);
+    --cor-hover: rgb(78, 157, 231);
+    --cor-primaria: rgb(231, 241, 236);
+    --cor-text: rgb(0, 0, 0);
+
+}
+
+
+
+.logomarca {
+   text-align: center;
+    margin-top: -80px;
+}
+
+body {
+    color: #333;
+}
+
+
+.veja_blogs{
+   text-align: center;
+   margin-top: 150px;
+   font-weight: normal;
+   margin-bottom: 0.5em;
+    
+}
+
+.blog1,
+.blog2,
+.blog3 {
+  display: inline-block;
+  width: 30%; /* Defina a largura desejada para cada div */
+  margin: 10px; /* Adicione margens para espaçamento entre as divs */
+  text-align: center; /* Alinhar o conteúdo ao centro na vertical */
+  margin-top: 50px;
+}
+
+/* Estilos opcionais para o conteúdo das divs */
+.blog1 img,
+.blog2 img,
+.blog3 img {
+  max-width: 100%; /* Garante que a imagem se ajuste ao contêiner */
+  border: 1px solid rgb(146, 114, 114); /* Adicione uma borda preta de 1px às imagens */
+}
+
+.blog1 h3,
+.blog2 h3,
+.blog3 h3 {
+    font-size: 16px; /* Tamanho da fonte do título */
+
+} 
+
+
+
+.menu{
+    list-style: none;
+    padding: 100px;
+    margin-top: -5%;
+    text-align: center; /* Centraliza horizontalmente */
+  }
+
+.menu ul {
+    list-style-type: none;
+    position: static;
+    background-color: var(--cor-fundo);
+}
+
+.menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul ul {
+    width: 150px
+}
+
+.menu ul ul li a {
+display: block;
+}
+
+
+/*Código da página principal */
+.titulo h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+}
+
+.imagem_pessoal img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+
+
+
+
+  .fa:hover {
+    opacity: 0.9;
+}
+
+.gmaail {
+    padding: 20px;
+    font-size: 40px;
+    width: 60px;
+   
+
+}
+  
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #520a7c;
+    color: white;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 60px;
+    text-decoration: none;
+    margin: 5px 80px;
+}
+
+.redes_sociais h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 0.5em;
+    color: var(--cor-text);
+}
+
+.Sobre h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+.Sobre p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 900px;
+    margin: auto;
+}
+
+
+.sobre_o_que h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+.sobre_o_que p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 900px;
+    margin: auto;
+}
+
+
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 500px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.Sobre p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 900px;
+    margin: auto;
+}
+.titulo h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+}
+
+
+
+
+
+.conteudo_n1 h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+}
+
+.conteudo_n1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 900px;
+    margin: auto;
+}
+
+
+
+.conteudo_n2 h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+}
+
+.conteudo_n2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 900px;
+    margin: auto;
+}
+
+
+.titulo_h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

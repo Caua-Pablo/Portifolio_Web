@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Conteudo da N1</title>
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="C:\Users\zollck\Desktop\Projeto\Projeto_Web\Estilos\principal.css">
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+</head>
+<body>
+
+
+<div class="logomarca">
+	<img src="Imagens/Logomarca.png" alt="logomarcaa">
+</div>		
+
+
+	<nav class="menu">
+		
+		<ul>
+	
+			<li>
+				<a href="C:\Users\zollck\Desktop\Projeto\Projeto_Web\Arquivo HTML\Página Inicial.html"><h3>Página Inicial</h3></a>
+			</li>
+			<li>
+				<a href="#"><h3>Blogs Sobre Tecnologia</h3></a>
+					<ul>
+						<li><a href="https://stackoverflow.com/questions/1198416/clicking-a-link-thats-behind-a-div"><h4>Artigos Pessoais</h4></a></li>
+						<li><a href="#"><h4>Ultimas Noticias</h4></a></li>
+						<li><a href="#"><h4>Tutoriais e Dicas</h4></a></li>
+						<li><a href="#"><h4>O Que É?</h4></a></li>
+					</ul>
+			</li>
+			<li>
+				<a href="#"><h3>Atividades da Faculdade</h3></a>
+					<ul>
+						<li><a href="C:\Users\zollck\Desktop\Projeto\Projeto_Web\Arquivo HTML\h1.html"><h4>Conteudos da N1 de complexidade</h4></a></li>
+						<li><a href="C:\Users\zollck\Desktop\Projeto\Projeto_Web\Arquivo HTML\h2.html">Conteudo da N2 de Complexidade</h4></a></li>
+					</ul>
+			</li>
+			<li>
+				<a href="#"><h3>Entre em Contato Comigo</h3></a>
+			</li>
+		</ul>
+	</nav>
+		</div>
+
+    <nav class="titulo_h1">
+      <h1 id="titulo_h1">Conteudos da N1 de Complexidade de Algoritmos</h1>
+      
+        
+
+<ul>
+    <li><a href="#introducao">Introdução a Complexidade de Algoritmos</a></li>
+    <li><a href="#assintotica">Ordens assintóticas: notações O, Ω e Θ</a></li>
+    <li><a href="#pessimista">Análise de complexidade pessimista</a></li>
+    <li><a href="analise_media">Análise de complexidade média</a></li>
+</ul>
+
+
+
+
+<section>
+    <nav class="conteudo_n1">
+
+<h2>Introdução a Complexidade de Algoritmos</h2>
+<p>A complexidade de algoritmos é um campo de estudo essencial na ciência da computação. Ela nos permite analisar e medir o desempenho dos algoritmos, levando em consideração o tempo e o espaço que eles requerem para resolver problemas.
+    Quando falamos de complexidade de tempo, estamos interessados em entender quanto tempo um algoritmo leva para executar, à medida que o tamanho da entrada aumenta. Isso nos ajuda a identificar algoritmos mais eficientes, que são capazes de lidar com grandes conjuntos de dados de forma mais rápida.
+    Já a complexidade de espaço analisa a quantidade de memória que um algoritmo precisa para executar. Em um mundo onde o armazenamento de dados é cada vez mais importante, entender como os algoritmos utilizam a memória é fundamental.
+    É importante ressaltar que, ao analisar a complexidade de algoritmos, estamos geralmente interessados no pior caso, ou seja, na situação em que o algoritmo leva mais tempo ou espaço para executar. Isso nos permite ter uma visão realista do desempenho do algoritmo em situações desfavoráveis.
+    Uma das notações mais utilizadas para descrever a complexidade de algoritmos é a notação Big O. Ela nos permite expressar a complexidade em termos de uma função matemática que descreve o crescimento do tempo ou espaço à medida que o tamanho da entrada aumenta.
+    Por exemplo, se um algoritmo tem uma complexidade de tempo O(n), isso significa que Por exemplo, se um algoritmo tem uma complexidade de tempo O(n), isso significa que o tempo de execução do algoritmo cresce de forma linear com o tamanho da entrada. Isso indica que, à medida que o tamanho dos dados aumenta, o tempo de execução também aumenta proporcionalmente.
+    Já se um algoritmo tem uma complexidade de tempo O(n^2), isso significa que o tempo de execução cresce de forma quadrática com o tamanho da entrada. Nesse caso, o tempo de execução aumenta de forma mais rápida à medida que o tamanho dos dados aumenta.
+    Além da notação Big O, existem outras notações como Big Omega e Big Theta, que também são usadas para descrever a complexidade de algoritmos em diferentes cenários.
+    Compreender a complexidade de algoritmos é essencial para projetar e analisar algoritmos eficientes. Isso nos ajuda a otimizar o desempenho dos nossos programas e a lidar com problemas de forma mais rápida e eficaz.
+    Espero que essa introdução à complexidade de algoritmos tenha despertado o interesse de vocês! Fiquem ligados em nosso blog acadêmico para mais conteúdos sobre ciência da computação e outros temas fascinantes. Se tiverem alguma dúvida, estou aqui para ajudar!</p>
+
+
+    <h2>Ordens assintóticas: notações O, Ω e Θ</h2>
+<p>As ordens assintóticas, representadas pelas notações O (grande O), Ω (grande Ômega) e Θ (grande Theta), são utilizadas para descrever a complexidade de algoritmos em diferentes cenários.
+    A notação O (grande O) é usada para expressar a complexidade superior ou assintótica de um algoritmo. Ela descreve o limite superior do crescimento do tempo ou espaço de um algoritmo à medida que o tamanho da entrada aumenta. Por exemplo, se um algoritmo tem uma complexidade de tempo O(n), isso significa que o tempo de execução cresce linearmente com o tamanho da entrada, ou seja, proporcionalmente ao tamanho da entrada.
+    A notação Ω (grande Ômega), por sua vez, é usada para expressar a complexidade inferior ou assintótica de um algoritmo. Ela descreve o limite inferior do crescimento do tempo ou espaço de um algoritmo à medida que o tamanho da entrada aumenta. Se um algoritmo tem uma complexidade de tempo Ω(n^2), isso significa que o tempo de execução cresce pelo menos quadraticamente com o tamanho da entrada.
+    Por fim, a notação Θ (grande Theta) é usada para expressar a complexidade assintoticamente ajustada de um algoritmo. Ela descreve um limite superior e inferior que são iguais ou muito próximos um do outro. Se um algoritmo tem uma complexidade de tempo Θ(n), isso significa que o tempo de execução cresce linearmente com o tamanho da entrada, mas sem ultrapassar esse limite superior.
+    Essas notações são úteis para comparar e analisar diferentes algoritmos, permitindo-nos entender como eles se comportam em termos de tempo e espaço à medida que o tamanho da entrada aumenta.
+    A notação O (grande O) é frequentemente utilizada para descrever a complexidade pior caso de um algoritmo. Ela fornece um limite superior para o tempo ou espaço de execução do algoritmo. Por exemplo, se um algoritmo tem uma complexidade de tempo O(n^2), isso significa que o tempo de execução cresce no máximo quadraticamente com o tamanho da entrada.
+    A notação Ω (grande Ômega), por sua vez, é usada para descrever a complexidade melhor caso de um algoritmo. Ela fornece um limite inferior para o tempo ou espaço de execução do algoritmo. Por exemplo, se um algoritmo tem uma complexidade de tempo Ω(n), isso significa que o tempo de execução cresce no mínimo linearmente com o tamanho da entrada.
+    Já a notação Θ (grande Theta) é utilizada para descrever a complexidade média de um algoritmo. Ela fornece um limite superior e inferior que são iguais ou muito próximos um do outro. Por exemplo, se um algoritmo tem uma complexidade de tempo Θ(n), isso significa que o tempo de execução cresce linearmente com o tamanho da entrada, e não piora além desse limite superior.
+    
+     À media em que o argumento de uma função cresce ou diminui infinitamente, isto é, fica muito grande ou muito pequeno, realizamos uma analíse assitótica da função para determinar sua complexiadade por meio de uma representação generalista. Essa representação segue três notações principais: 
+        
+        O(f(n)), omega(x(n)),o(f(n))
+        
+        O (f(n)) → BG-o 
+        essa notação define um limite superior assintótico para a função
+        
+        Omega (f(n)) → notação ômega essa notação define um limite inferior assintotico para a função.
+        
+        o(f(n)) = lim f(n) n→infinito
+        
+        O(f(n)=0) (n²) = n²
+        
+        polinomial de segundo grau, custo quadrático
+        > 
+        
+    - Aula 4 - 06/09/2023
+        
+        Analise de complexidade pessimista:
+        
+        Cp = [a] := máx { desemp[a](d) / tam (d)= n};
+        
+        Cp ≤[a] := máx { desemp [a](d) / tam (d)≤ n};
+        
+        Onde desemp [a] := custo (exec [a](d)).
+        
+        - Cp → complexidade pessimista
+        - a → algoritimo
+        - n → tamanho da entrada
+        - desemp → desempenho
+        - tam → tamanho da entrada
+        - d → entrada de dados de um conjunto D e IR =.
+        - = > tam(d) = n
+        
+        considere duas funcoes f e g de um conjunto D de dados em IR. Sua soma pontual, dada por 
+        
+        (f+g)(d):= k(d) + g(d), para cada d e D 
+        
+        Logo, seu máximo e minimo pontuais são dados por : 
+        
+        Máx (f,g)(d) := Máx [f(d), g (d)] e 
+        
+        Min (f,g)(d) := min [f(d),g(d)]
+        
+        ex.: f (n) := n + 1 e g(n):= n^2, de IN → IN</p>
+
+
+        <h2>Algoritmos pessimista</h2>
+        <p>A análise de complexidade pessimista, também conhecida como análise de pior caso, é uma abordagem utilizada para analisar o desempenho de um algoritmo considerando a situação em que ele leva mais tempo ou utiliza mais recursos.
+            Ao realizar a análise de complexidade pessimista, consideramos a entrada que resulta no maior tempo de execução ou no maior consumo de recursos pelo algoritmo. Isso nos dá uma estimativa conservadora do desempenho do algoritmo em cenários desfavoráveis.
+            Essa abordagem é importante porque nos permite entender o comportamento do algoritmo em situações críticas, em que ele pode ser mais lento ou exigir mais recursos. Isso é especialmente relevante quando lidamos com algoritmos que precisam ser eficientes em todas as situações, mesmo nas piores.
+            A análise de complexidade pessimista é geralmente expressa utilizando a notação Big O (O), que descreve o limite superior do crescimento do tempo ou espaço de um algoritmo. Por exemplo, se um algoritmo tem uma complexidade de tempo O(n^2), isso significa que o tempo de execução cresce quadraticamente com o tamanho da entrada no pior caso.
+            Ao realizar a análise de complexidade pessimista, é importante considerar todas as etapas do algoritmo e identificar aquela que possui o maior custo computacional. Isso nos ajuda a entender onde o algoritmo pode ser otimizado ou substituído por uma abordagem mais eficiente.
+            Em resumo, a análise de complexidade pessimista nos permite estimar o desempenho de um algoritmo em situações desfavoráveis, considerando o pior caso.
+            
+            
+            
+            Cp = [a] (n) := max { desemp [a] / tam(d) = n};
+            Barra (/) → tal que
+            := → vai ser
+            Pessimista → pior caso
+            Cp = [a] (n) := max { desemp [a] / tam(d) ≤ n};
+            onde desemp[a] (d) := custo (exec[a](d)).
+            Cp → Complexidade pessimista
+            a → algoritmo
+            n → tamanho de entrada
+            Complexidade de algoritmos 2
+            desemp → desempenho
+            tam → tamanho da entrada
+            d → entrada de dados de um conjunto D pertence(E) Reais
+            ⇒ tam(d) = n
+            Considere duas funções f e g de um conjunto D de dados em (R)eal. Sua soma Pontual, dad apor
+            (f + g) (d) := f(d) + g(d)
+            !! as 2 funcoes precisa ter a mesma entrada de dados
+            para cada d E(pertence) D
+            Logo, seu maximo e minimo pontuais sao dados por:
+            Max (f, g) (d) := max[f(d), g(d)]
+            e
+            Min (f, g) (d) := min[f(d), g(d)]
+            Ex.:
+            f(n) := n+a
+            g(n) := n²
+            
+            de N(atural) → N(atural)
+            Complexidade do QuickSort →
+            Equacao de custo: 3 + 2 * (n + 1) + quicksort
+            QuickSort = N * Partition</p>
+     
+
+            <h2>Analise de Complexidade Média</h2>
+            <p> Se você já se aventurou no mundo da programação, já deve ter ouvido falar sobre a importância de otimizar algoritmos para obter um melhor desempenho computacional. E um dos conceitos fundamentais nessa área é a análise de complexidade média de algoritmos. Neste artigo, vamos mergulhar nesse assunto e compreender como essa análise nos ajuda a entender a eficiência dos nossos programas.
+                O que é a análise de complexidade média de algoritmos? A análise de complexidade média de algoritmos é uma técnica usada para avaliar o desempenho de um algoritmo em cenários de entrada aleatórios, ou seja, quando não é possível prever com certeza quais entradas serão fornecidas ao programa. Ela nos fornece uma estimativa de quantos recursos computacionais (tempo ou espaço) serão necessários para a execução do algoritmo, em média, conhecendo a distribuição probabilística das entradas.
+                Por que é importante analisar a complexidade média? A análise de complexidade média é crucial para entender a eficiência do algoritmo em diferentes cenários e determinar se ele é escalável e viável para um grande número de entradas aleatórias. Ao analisar a complexidade média, podemos identificar gargalos e pontos de melhoria em nosso código, permitindo-nos otimizar o algoritmo e melhorar sua performance.
+                Métodos comuns de análise de complexidade média: Existem várias técnicas para realizar a análise de complexidade média de algoritmos, sendo as mais comuns:
+                Análise probabilística: baseada em modelos matemáticos, essa abordagem usa a probabilidade para determinar a média do desempenho do algoritmo. Ela envolve a definição de uma distribuição probabilística para as entradas e calcula estatísticas relevantes, como média, variância e desvio padrão.
+                Análise amortizada: essa técnica é usada principalmente quando o algoritmo tem uma complexidade média alta em alguns casos, mas, em média, tem um desempenho muito melhor. Nesse método, a análise é feita levando em consideração a média ponderada das operações, considerando as mais custosas e as mais eficientes.
+                Conclusão: A análise de complexidade média de algoritmos nos auxilia a entender a eficiência dos nossos programas em cenários reais de entrada aleatória. Ela nos ajuda a identificar gargalos e otimizar nosso código, garantindo que nossos algoritmos sejam escaláveis e capazes de lidar com diferentes quantidades e tipos de dados. Portanto, dedicar tempo e esforço para entender essa análise é fundamental para obter a melhor performance em nossos sistemas computacionais</p>
+            </nav>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+	</section>
+
+		<footer class="page-footer">
+			<div class="container">
+			  <div class="row">
+				<div class="col l6 s12">
+				  <p class="grey-text text-lighten-4"> Gostaria de entrar em contato? preencha o formulário clicando abaixo.</p>
+  
+				  <a class="waves-effect waves-light btn green" href="C:\Users\zollck\Desktop\Projeto\Projeto_Web\Arquivo HTML\Contato.html"> Clique aqui</a>
+				</div>
+				<div class="col l4 offset-l2 s12">
+				  <h5 class="white-text">Siga minhas redes sociais</h5>
+				  <center>
+				  <ul>
+				   <h6 class="redes_sociais">caua.ti@gmail.com<h6>
+					<a href="https://www.linkedin.com/in/cau%C3%A3-pablo-ti/" class="fa fa-linkedin"></a>		
+					<a href="https://github.com/Caua-Pablo?tab=repositories" class="fa fa-github"></a>
+					<a class="gmaail" href="mailto:cauapablo.ti@gmail.com"><iconify-icon icon="logos:google-gmail"></iconify-icon>
+				  </ul>
+				  </center>
+				</div>
+			  </div>
+			</div>
+
+
+
+
+			
+	
+
+
+
+
+
+
+
+
+	</nav>
+</section>
+
+	
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
