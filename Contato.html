@@ -1,116 +1,134 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Entre em Contato Comigo</title>
-	<link rel="stylesheet" href="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Estilos/Contato.css">
-	<script>
-		function Enviar() {
+<title>Portifolio Profissional</title>
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="./Estilos/principal.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<script>
 
-var nome = document.getElementById("nomeid");
-
-if (nome.value != "") {
-	alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
-}
-
-}
-	</script>
+function enviarFormulario(event) {
+		event.preventDefault(); 
+		alert("E-mail enviado com sucesso!");
+	}
+</script>
 </head>
 <body>
 
 
-	<link rel="stylesheet" href=
-	"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Estilos/principal.css">
-	<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-	
-	</head>
-	<body>
-	
-	<!--Código dos Menus
-	*Botão para modo escuro e modo Claro
-	*Diminuir espaço do bem vindo 
-	-->
-	
-	<div class="logomarca">
-		<img src="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Imagens/Logomarca.png" alt="logomarcaa">
-	</div>		
-	
-	
-		<nav class="menu">
-			
-			<ul>
+
+<div class="logomarca">
+	<img src="Imagens/Logomarca.png" alt="logomarcaa">
+</div>		
+
+
+	<nav class="menu">
 		
-				<li>
-					<a href="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Arquivo HTML/Página Inicial.html"><h3>Página Inicial</h3></a>
-				</li>
-				<li>
-					<a href="#"><h3>Blogs Sobre Tecnologia</h3></a>
-						<ul>
-							<li><a href="#"><h4>Artigos Pessoais</h4></a></li>
-							<li><a href="#"><h4>Ultimas Noticias</h4></a></li>
-							<li><a href="#"><h4>Tutoriais e Dicas</h4></a></li>
-							<li><a href="#"><h4>O Que É?</h4></a></li>
-						</ul>
-				</li>
-				<li>
-					<a href="#"><h3>Atividades da Faculdade</h3></a>
-						<ul>
-							<li><a href="#"><h4>Complexidade de Algoritmos</h4></a></li>
-							<li><a href="#"><h4>Materia X</h4></a></li>
-							<li><a href="#"><h4>Materia X</h4></a></li>
-							<li><a href="#"><h4>Materia X</h4></a></li>
-						</ul>
-				</li>
+		<ul>
 	
-	
-	
-	
-				<li>
-					<a href="#"><h3>Entre em Contato Comigo</h3></a>
-				</li>
-			</ul>
-		</nav>
-	
-
-	<form name="meu_form">
-
-		<h1>Entre em contato</h1>
-	  
-		<input type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="nome" />
-		<label for="nome">Nome</label>
-	  
-		<input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
-		<label for="fone">Fone</label>
-	  
-		<input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
-		<label for="email">Email</label>
-	  
-		<textarea placeholder="Deixe sua opnião"></textarea>
-	  
-		<input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-	  </form>
-
-
-
-	<section>
-		<div class="footer_final">
-			<footer>
-				<p>&copy; 2023 - Todos os direitos reservados</p>
-				<nav>
+			<li>
+				<a href="index.html"><h3>Página Inicial</h3></a>
+			</li>
+			<li>
+				<a href="#"><h3>Blogs Sobre Tecnologia</h3></a>
 					<ul>
-						<li><a href="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Arquivo HTML/termos.html">Termos de uso</a></li>
-						<li><a href="#">Política de privacidade</a></li>
-						<li><a href="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Arquivo HTML/Página Inicial.html">Sobre mim</a></li>
-						<li><a href="/home/caua_aic/Documentos/Projetinhos/Projeto_Web/Arquivo HTML/Contato.html">Contato</a></li>
+						<li><a href="#"><h4>Artigos Pessoais</h4></a></li>
+						<li><a href="#"><h4>Ultimas Noticias</h4></a></li>
+						<li><a href="#"><h4>Tutoriais e Dicas</h4></a></li>
+						<li><a href="#"><h4>O Que É?</h4></a></li>
 					</ul>
-				</nav>
-			</footer>
+			</li>
+			<li>
+				<a href="#"><h3>Atividades da Faculdade</h3></a>
+					<ul>
+						<li><a href="h1.html"><h4>Conteudos da N1 de complexidade</h4></a></li>
+						<li><a href="h2.html"><h4>Conteudos da N2 de complexidade</h4></a></li>
+					</ul>
+			</li>
+			<li>
+				<a href="#"><h3>Entre em Contato Comigo</h3></a>
+			</li>
+		</ul>
+	</nav>
+		</div>
+
+
+		<center>
+
+			<div class="container_contato">
+		
+				<h1 class="contato_h1">Entre em Contato</h1>
+				<form action="#" method="post" onsubmit="enviarFormulario(event)">
+					<div class="row">
+						<div class="col">
+							<label for="nome">Nome:</label>
+							<input type="text" placeholder="Nome e Sobrenome" id="nome" name="nome" required>
+						</div>
+						<div class="col">
+							<label for="email">Email:</label>
+							<input type="email" placeholder="Endereço de e-mail" id="email" name="email" required>
+						</div>
+					</div>
+					<label for="assunto">Assunto:</label>
+					<input type="text" placeholder="Assunto" id="assunto" name="assunto"  required>
+					
+					<label for="mensagem">Mensagem:</label>
+					<textarea id="mensagem" placeholder="Mensagem" name="mensagem" required></textarea>
+					
+					<input type="submit" value="Enviar">
+				</form>
+			</div>
+		
+			<script src="script.js"></script>
+		
+	</center>
+
+
+	
+
+
+	</section>
+
+	<footer class="page-footer">
+		<div class="container">
+		  <div class="row">
+			<div class="col l6 s12">
+			  <p class="grey-text text-lighten-4"> Gostaria de entrar em contato? preencha o formulário clicando abaixo.</p>
+
+			  <a class="waves-effect waves-light btn green" href="Contato.html"> Clique aqui</a>
+			</div>
+			<div class="col l4 offset-l2 s12">
+			  <h5 class="white-text">Siga minhas redes sociais</h5>
+			  <center>
+			  <ul>
+			   <h6 class="redes_sociais">caua.ti@gmail.com<h6>
+				<a href="https://www.linkedin.com/in/cau%C3%A3-pablo-ti/" class="fa fa-linkedin"></a>		
+				<a href="https://github.com/Caua-Pablo?tab=repositories" class="fa fa-github"></a>
+				<a class="gmaail" href="mailto:cauapablo.ti@gmail.com"><iconify-icon icon="logos:google-gmail"></iconify-icon>
+			  </ul>
+			  </center>
+			</div>
+		  </div>
 		</div>
 
 
 
-	</nav>
+
+		
+
+</nav>
 </section>
+
+
+
+
+
+
+
 
 </body>
 </html>
+
+

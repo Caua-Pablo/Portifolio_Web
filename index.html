@@ -5,7 +5,21 @@
 <link rel="stylesheet" href=
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 <link rel="stylesheet" href="./Estilos/principal.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+
+
+<style>.cookieConsentContainer{z-index:999;width:350px;min-height:20px;box-sizing:border-box;padding:30px 30px 30px 30px;background:#232323;overflow:hidden;position:fixed;bottom:30px;right:30px;display:none}.cookieConsentContainer .cookieTitle a{font-family:OpenSans,arial,sans-serif;color:#fff;font-size:22px;line-height:20px;display:block}.cookieConsentContainer .cookieDesc p{margin:0;padding:0;font-family:OpenSans,arial,sans-serif;color:#fff;font-size:13px;line-height:20px;display:block;margin-top:10px}.cookieConsentContainer .cookieDesc a{font-family:OpenSans,arial,sans-serif;color:#fff;text-decoration:underline}.cookieConsentContainer .cookieButton a{display:inline-block;font-family:OpenSans,arial,sans-serif;color:#fff;font-size:14px;font-weight:700;margin-top:14px;background:#000;box-sizing:border-box;padding:15px 24px;text-align:center;transition:background .3s}.cookieConsentContainer .cookieButton a:hover{cursor:pointer;background:#3e9b67}@media (max-width:980px){.cookieConsentContainer{bottom:0!important;left:0!important;width:100%!important}}</style>
+<script>var purecookieTitle="Cookies.",purecookieDesc="Ao utilizar este site, você aceita automaticamente que utilizemos cookies.",purecookieLink='<a href="https://www.cssscript.com/privacy-policy/" target="_blank">What for?</a>',purecookieButton="Understood";function pureFadeIn(e,o){var i=document.getElementById(e);i.style.opacity=0,i.style.display=o||"block",function e(){var o=parseFloat(i.style.opacity);(o+=.02)>1||(i.style.opacity=o,requestAnimationFrame(e))}()}function pureFadeOut(e){var o=document.getElementById(e);o.style.opacity=1,function e(){(o.style.opacity-=.02)<0?o.style.display="none":requestAnimationFrame(e)}()}function setCookie(e,o,i){var t="";if(i){var n=new Date;n.setTime(n.getTime()+24*i*60*60*1e3),t="; expires="+n.toUTCString()}document.cookie=e+"="+(o||"")+t+"; path=/"}function getCookie(e){for(var o=e+"=",i=document.cookie.split(";"),t=0;t<i.length;t++){for(var n=i[t];" "==n.charAt(0);)n=n.substring(1,n.length);if(0==n.indexOf(o))return n.substring(o.length,n.length)}return null}function eraseCookie(e){document.cookie=e+"=; Max-Age=-99999999;"}function cookieConsent(){getCookie("purecookieDismiss")||(document.body.innerHTML+='<div class="cookieConsentContainer" id="cookieConsentContainer"><div class="cookieTitle"><a>'+purecookieTitle+'</a></div><div class="cookieDesc"><p>'+purecookieDesc+" "+purecookieLink+'</p></div><div class="cookieButton"><a onClick="purecookieDismiss();">'+purecookieButton+"</a></div></div>",pureFadeIn("cookieConsentContainer"))}function purecookieDismiss(){setCookie("purecookieDismiss","1",7),pureFadeOut("cookieConsentContainer")}window.onload=function(){cookieConsent()};</script>
+
+
+
+
+
+
+
+
 </head>
 <body>
 
@@ -21,12 +35,12 @@
 		<ul>
 	
 			<li>
-				<a href="C:\Users\zollck\Desktop\Projeto\Projeto_Web\Arquivo HTML\Página Inicial.html"><h3>Página Inicial</h3></a>
+				<a href="index.html"><h3>Página Inicial</h3></a>
 			</li>
 			<li>
 				<a href="#"><h3>Blogs Sobre Tecnologia</h3></a>
 					<ul>
-						<li><a href="https://stackoverflow.com/questions/1198416/clicking-a-link-thats-behind-a-div"><h4>Artigos Pessoais</h4></a></li>
+						<li><a href="#"><h4>Artigos Pessoais</h4></a></li>
 						<li><a href="#"><h4>Ultimas Noticias</h4></a></li>
 						<li><a href="#"><h4>Tutoriais e Dicas</h4></a></li>
 						<li><a href="#"><h4>O Que É?</h4></a></li>
@@ -35,12 +49,12 @@
 			<li>
 				<a href="#"><h3>Atividades da Faculdade</h3></a>
 					<ul>
-						<li><a href="C:\Users\zollck\Desktop\Projeto\Projeto_Web\Arquivo HTML\h1.html"><h4>Conteudos da N1 de complexidade</h4></a></li>
-						<li><a href="C:\Users\zollck\Desktop\Projeto\Projeto_Web\Arquivo HTML\h2.html">Conteudo da N2 de Complexidade</h4></a></li>
+						<li><a href="h1.html"><h4>Conteudos da N1 de complexidade</h4></a></li>
+						<li><a href="h2.html"><h4>Conteudos da N2 de complexidade</h4></a></li>
 					</ul>
 			</li>
 			<li>
-				<a href="#"><h3>Entre em Contato Comigo</h3></a>
+				<a href="Contato.html"><h3>Entre em Contato Comigo</h3></a>
 			</li>
 		</ul>
 	</nav>
@@ -98,7 +112,7 @@
 		<div class="card">	
 			<img src="./Imagens/sistemas_operacionais.png" alt="S.O">
 			<div class="card-content">
-				<h3>[Blog] O Que são Sistema Operacional?</h3>
+				<h3>[Blog] Sistema Operacionais</h3>
 				<p>Este artigo explica sobre o que são Sistemas Operacionais e diferentes tipos de sistemas operacionais</p>
 				<a href="" class="btn">Leia mais sobre</a>
 				</div>
@@ -126,7 +140,7 @@
 		<div class="card">	
 			<img src="./Imagens/linux.png" alt="S.O">
 			<div class="card-content">
-				<h3>[Blog] O Que é um Firewall?</h3>
+				<h3>[Blog] O Que é um Linux?</h3>
 				<p>Este artigo explica sobre o que é um servidor Firewall e suas vantagens de aplicar em sua residencia ou empresa.
 				</p>
 				<a href="" class="btn">Leia mais sobre</a>
@@ -140,27 +154,31 @@
 	</section>
 
 	<footer class="page-footer">
-		<div class="container">
-		  <div class="row">
-			<div class="col l6 s12">
-			  <p class="grey-text text-lighten-4"> Gostaria de entrar em contato? preencha o formulário clicando abaixo.</p>
+        <center>
 
-			  <a class="waves-effect waves-light btn green" href="C:\Users\zollck\Desktop\Projeto\Projeto_Web\Arquivo HTML\Contato.html"> Clique aqui</a>
-			</div>
-			<div class="col l4 offset-l2 s12">
-			  <h5 class="white-text">Siga minhas redes sociais</h5>
-			  <center>
-			  <ul>
-			   <h6 class="redes_sociais">caua.ti@gmail.com<h6>
-				<a href="https://www.linkedin.com/in/cau%C3%A3-pablo-ti/" class="fa fa-linkedin"></a>		
-				<a href="https://github.com/Caua-Pablo?tab=repositories" class="fa fa-github"></a>
-				<a class="gmaail" href="mailto:cauapablo.ti@gmail.com"><iconify-icon icon="logos:google-gmail"></iconify-icon>
-			  </ul>
-			  </center>
-			</div>
-		  </div>
-		</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="grey-text text-lighten-4">Gostaria de entrar em contato? Preencha o formulário clicando abaixo.</p>
+                    <a class="waves-effect waves-light btn green" href="Contato.html">Clique aqui</a>
+                </div>
+                <div class="col-md-4 offset-md-2">
+                    <h5 class="white-text">Siga minhas redes sociais</h5>
+                            <ul class="redes_sociais">
+                              <a href="https://www.linkedin.com/in/cau%C3%A3-pablo-ti/" class="fa fa-linkedin"></a>		
+                              <a href="https://github.com/Caua-Pablo?tab=repositories" class="fa fa-github"></a>
+                              <a class="gmaail" href="mailto:cauapablo.ti@gmail.com"><iconify-icon icon="logos:google-gmail"></iconify-icon>
+                            </ul>
 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </center>
+
+    </footer>
+
+    <script src="script.js"></script>
 
 
 
