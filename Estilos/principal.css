@@ -68,12 +68,9 @@ margin-bottom: 8px;
 
 
 
-
-
-
 .logomarca {
    text-align: center;
-   margin-top: -80px;
+   margin-top: -90px;
 }
 
 body {
@@ -111,7 +108,7 @@ body {
 .menu{
     list-style: none;
     padding: 100px;
-    margin-top: 15%;
+    margin-top: -5%;
     text-align: center; /* Centraliza horizontalmente */
   }
 
