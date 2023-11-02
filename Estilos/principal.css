@@ -13,13 +13,14 @@
 
 
 .card-container {
+    text-align: center; /* Alinhar o conteúdo ao centro na vertical */
+
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     display: inline-block;
     width: 30%; /* Defina a largura desejada para cada div */
     margin: 10px; /* Adicione margens para espaçamento entre as divs */
-    text-align: center; /* Alinhar o conteúdo ao centro na vertical */
     margin-top: 50px;
 }
 .card{
@@ -102,7 +103,7 @@ body {
 .menu{
     list-style: none;
     padding: 100px;
-    margin-top: -5%;
+    margin-top: 15%;
     text-align: center; /* Centraliza horizontalmente */
   }
 
