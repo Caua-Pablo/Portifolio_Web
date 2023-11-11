@@ -20,7 +20,6 @@
 
 .card-container {
     text-align: center; /* Alinhar o conteúdo ao centro na vertical */
-
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -446,8 +445,3 @@ textarea {
 .col {
     flex: 1;
 }
-
-
-
-
-
