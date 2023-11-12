@@ -31,40 +31,20 @@ text-align: center;
 }
 
 
-/* Estilos para dispositivos móveis */
-@media only screen and (max-width: 500px) {
-    .card-container {
-        width: 5%; /* Altera a largura para ocupar 100% da largura da tela */
-    }
 
+
+
+
+@media (max-width: 600px) {
+
+
+    /* Ajuste para dispositivos com largura máxima de 600 pixels (celulares, por exemplo) */
     .card {
-        width: 100%; /* Define a largura da carta para ocupar 100% da largura da tela */
-        margin: 10px 0; /* Ajusta a margem para espaçamento entre as cartas */
+        width: 100%; /* Ocupar a largura total da tela */
     }
 
-    .imagem_pessoal img {
-        width: 100%; /* Faz com que a imagem pessoal ocupe 100% da largura da tela */
-        height: auto; /* Permite que a altura se ajuste proporcionalmente à largura */
-        margin-top: 20px; /* Ajusta a margem superior */
-    }
-
-    /* Adaptações para o menu e outras seções */
-    .menu {
-        padding: 20px; /* Ajusta o preenchimento do menu */
-        margin-top: 0; /* Remove a margem superior do menu */
-    }
-
-    .footer {
-        margin-top: 20px; /* Ajusta a margem superior do rodapé */
-    }
-
-    /* Adaptações para outros elementos conforme necessário */
-
-    /* Exemplo de ajuste para a logomarca no cabeçalho */
-    .logomarca {
-        margin-top: -50px; /* Ajusta a margem superior */
-    }
 }
+
 
 
 .card-container {
@@ -76,15 +56,22 @@ text-align: center;
     width: 30%; /* Defina a largura desejada para cada div */
     margin: 10px; /* Adicione margens para espaçamento entre as divs */
     margin-top: 50px;
+    gap: 20px;
+    padding: 10px;
 }
+
+
+
+
+
 .card{
-    width: 325px;
+    width: 300px;
     background-color: #ffffff;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 2);
     display: inline-block;
-    margin: 10px;
+    margin: 20px;
     
 }
 
