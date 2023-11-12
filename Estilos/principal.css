@@ -12,10 +12,40 @@
 
 
 
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    .card-container {
+        width: 100%; /* Altera a largura para ocupar 100% da largura da tela */
+    }
 
+    .card {
+        width: 100%; /* Define a largura da carta para ocupar 100% da largura da tela */
+        margin: 10px 0; /* Ajusta a margem para espaçamento entre as cartas */
+    }
 
+    .imagem_pessoal img {
+        width: 100%; /* Faz com que a imagem pessoal ocupe 100% da largura da tela */
+        height: auto; /* Permite que a altura se ajuste proporcionalmente à largura */
+        margin-top: 20px; /* Ajusta a margem superior */
+    }
 
+    /* Adaptações para o menu e outras seções */
+    .menu {
+        padding: 20px; /* Ajusta o preenchimento do menu */
+        margin-top: 0; /* Remove a margem superior do menu */
+    }
 
+    .footer {
+        margin-top: 20px; /* Ajusta a margem superior do rodapé */
+    }
+
+    /* Adaptações para outros elementos conforme necessário */
+
+    /* Exemplo de ajuste para a logomarca no cabeçalho */
+    .logomarca {
+        margin-top: -50px; /* Ajusta a margem superior */
+    }
+}
 
 
 .card-container {
