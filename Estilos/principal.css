@@ -9,7 +9,26 @@
 
 }
 
+.referencia h3{
+color: aliceblue;
+}
+.referencia{
+    background-color: #333;
+}
+.referencia{
+    margin-top: 120px;
+    color: #000000;
+}
 
+.referencia ul{
+    color: #000000;
+    text-align: center;
+}
+.referencia li{
+    color: #000000;
+text-align: center;
+
+}
 
 
 /* Estilos para dispositivos móveis */

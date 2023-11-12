@@ -8,6 +8,49 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
+
+
+
+
+<style>
+	
+	.artigos h2{
+		color: #000000;
+
+    }
+	.artigos h4{
+		color: #000000;
+
+	}
+
+	.artigos p{
+		font-family: Arial, sans-serif;
+		margin: 20px;
+		line-height: 1.6;
+		color: #000000;
+	}
+
+	.artigos {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+	.networking img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.artigos ul {
+		list-style-type: disc;
+		padding-left: 20px;
+	}
+
+ 
+
+</style>
+
+
+
+
 </head>
 <body>
 
@@ -64,55 +107,94 @@
     
     
     <section>
-        <nav class="conteudo_n2">
+        <nav class="artigos">
     <h2>Algoritmos Gulosos</h2>
     <p>Os algoritmos gulosos, também conhecidos como algoritmos vorazes, são uma classe de algoritmos que resolvem problemas tomando decisões localmente ótimas em cada etapa, com a esperança de que essas decisões levem a uma solução globalmente ótima.
+      <p>
         A complexidade dos algoritmos gulosos pode variar dependendo do problema específico que está sendo resolvido. Em alguns casos, os algoritmos gulosos podem ter uma complexidade linear ou quase linear, o que significa que o tempo de execução aumenta proporcionalmente ao tamanho da entrada.
+      </p>
+      <p>
         No entanto, é importante ressaltar que nem todos os problemas podem ser resolvidos com algoritmos gulosos, e nem todos os algoritmos gulosos são eficientes em termos de complexidade. Alguns problemas podem exigir estratégias mais complexas, como programação dinâmica ou busca em profundidade, para obter uma solução ótima.
         Portanto, ao analisar a complexidade de um algoritmo guloso, é necessário levar em consideração o problema específico que está sendo resolvido e a estratégia adotada pelo algoritmo. Em geral, a complexidade dos algoritmos gulosos pode ser determinada pela análise do tempo de execução de cada etapa do algoritmo e pela análise do número de iterações necessárias para chegar à solução final.
+      </p>
+       
+       
         
+        <p>
+          Jamais se arrepende de uma decisão, as escolhas realizadas são definitivas;
+          Não leva em consideração as consequências de suas decisões;
+          Podem fazer cálculos repetitivos;
+        </p>
+        <p>
+          Nem sempre produz a melhor solução (depende da quantidade de informação fornecida);
+          Quanto mais informações, maior a chance de produzir uma solução melhor.
+          Algoritmos Gulosos vs Programação Dinâmica
+        </p>
+      
+     <p>
+      Em um algoritmo de programação dinâmica a escolha pode depender da solução dos subproblemas, enquanto um algoritmo guloso vai tentar escolher a melhor solução naquele momento.
+      A solução dos problemas na programação dinâmica parte de baixo para cima, enquanto um algoritmo guloso vai de cima para baixo, ou seja, na programação dinâmica, as soluções para todos os subproblemas são calculadas partindo dos menores subproblemas para os maiores.
+      Os resultados dos subproblemas na programação dinâmica são salvos, facilitando a prova de correção.
+     </p>
+      
+     <div class="liista">
+      <h2>Pontos a Favor</h2>
+    <ul>
+        <li>Simples e de fácil implementação;</li>
+        <li>Algoritmos de rápida execução;</li>
+        <li>Podem fornecer a melhor solução (estado ideal).</li>
+    </ul>
+
+    <h2>Pontos Contra</h2>
+    <ul>
+        <li>Dependentes de informações;</li>
+        <li>Correm o risco de entrarem em loops infinitos;</li>
+        <li>Situacionais, só resolvem tipos específicos de problemas;</li>
+        <li>Decisões tomadas são irrevogáveis.</li>
+    </ul>
+     </div>
         
-        
-        Jamais se arrepende de uma decisão, as escolhas realizadas são definitivas;
-        Não leva em consideração as consequências de suas decisões;
-        Podem fazer cálculos repetitivos;
-        Nem sempre produz a melhor solução (depende da quantidade de informação fornecida);
-        Quanto mais informações, maior a chance de produzir uma solução melhor.
-        Algoritmos Gulosos vs Programação Dinâmica
-        
-        Em um algoritmo de programação dinâmica a escolha pode depender da solução dos subproblemas, enquanto um algoritmo guloso vai tentar escolher a melhor solução naquele momento.
-        A solução dos problemas na programação dinâmica parte de baixo para cima, enquanto um algoritmo guloso vai de cima para baixo, ou seja, na programação dinâmica, as soluções para todos os subproblemas são calculadas partindo dos menores subproblemas para os maiores.
-        Os resultados dos subproblemas na programação dinâmica são salvos, facilitando a prova de correção.
-        
-        Pontos a favor
-        
-        -Simples e de fácil implementação;
-        -Algoritmos de rápida execução;
-        -Podem fornecer a melhor solução (estado ideal).
-        
-        Pontos Contra
-        
-        -Dependentes de informações;
-        -Correm o risco de entrarem em loops infinitos;
-        -Situacionais, só resolvem tipos específicos de problemas;
-        -Decisões tomadas são irrevogáveis;</p>
+       
 
     
 
         <h2>Algoritmos de Divisão e Conquista</h2>
-    <p>Os algoritmos de divisão e conquista são uma classe de algoritmos que dividem um problema em subproblemas menores, resolvem cada subproblema de forma independente e depois combinam as soluções dos subproblemas para obter a solução final do problema.
-        A complexidade dos algoritmos de divisão e conquista pode variar dependendo do problema específico que está sendo resolvido. Em geral, esses algoritmos possuem uma complexidade de tempo de O(n log n), onde n é o tamanho da entrada. No entanto, em alguns casos, a complexidade pode ser pior, como O(n^2) ou O(2^n), dependendo da forma como os subproblemas são resolvidos e combinados.
-        A análise de complexidade dos algoritmos de divisão e conquista geralmente envolve a análise do tempo de execução de cada etapa do algoritmo. No caso do conhecido algoritmo de ordenação "merge sort", a complexidade é O(n log n), onde n é o número de elementos a serem ordenados. Isso ocorre porque o algoritmo divide repetidamente a lista de elementos pela metade, realiza a ordenação de cada metade separadamente e, em seguida, combina as metades ordenadas em uma única lista.</p>
+        <p>
+          Os algoritmos de divisão e conquista são uma classe de algoritmos que dividem um problema em subproblemas menores, resolvem cada subproblema de forma independente e depois combinam as soluções dos subproblemas para obter a solução final do problema.
+        </p>
+   <p>
+    A complexidade dos algoritmos de divisão e conquista pode variar dependendo do problema específico que está sendo resolvido. Em geral, esses algoritmos possuem uma complexidade de tempo de O(n log n), onde n é o tamanho da entrada. No entanto, em alguns casos, a complexidade pode ser pior, como O(n^2) ou O(2^n), dependendo da forma como os subproblemas são resolvidos e combinados.
+   </p>
+     <p>
+      A análise de complexidade dos algoritmos de divisão e conquista geralmente envolve a análise do tempo de execução de cada etapa do algoritmo. No caso do conhecido algoritmo de ordenação "merge sort", a complexidade é O(n log n), onde n é o número de elementos a serem ordenados. Isso ocorre porque o algoritmo divide repetidamente a lista de elementos pela metade, realiza a ordenação de cada metade separadamente e, em seguida, combina as metades ordenadas em uma única lista.
+     </p>
+       
     
     
     
     
         <h2>Complexidade de Problemas</h2>
-    <p>A complexidade de um problema em relação a algoritmos refere-se à quantidade de recursos necessários para resolver o problema usando um algoritmo específico. Geralmente, a complexidade de um problema é expressa em termos de tempo de execução (complexidade temporal) e/ou uso de espaço (complexidade espacial).
-        A complexidade temporal é uma medida do tempo necessário para executar um algoritmo em relação ao tamanho da entrada. Ela é geralmente expressa usando a notação O (Big O), que descreve o crescimento assintótico do tempo de execução em relação ao tamanho da entrada. Por exemplo, se um algoritmo tem complexidade O (n^2), isso significa que o tempo de execução do algoritmo cresce quadraticamente com o tamanho da entrada.
+    <p>
+      A complexidade de um problema em relação a algoritmos refere-se à quantidade de recursos necessários para resolver o problema usando um algoritmo específico. Geralmente, a complexidade de um problema é expressa em termos de tempo de execução (complexidade temporal) e/ou uso de espaço (complexidade espacial).
+      A complexidade temporal é uma medida do tempo necessário para executar um algoritmo em relação ao tamanho da entrada. Ela é geralmente expressa usando a notação O (Big O), que descreve o crescimento assintótico do tempo de execução em relação ao tamanho da entrada. Por exemplo, se um algoritmo tem complexidade O (n^2), isso significa que o tempo de execução do algoritmo cresce quadraticamente com o tamanho da entrada.
+    </p>
+      <p>
         A complexidade espacial é uma medida da quantidade de espaço de memória necessário para executar um algoritmo em relação ao tamanho da entrada. Ela também é expressa usando a notação O (Big O), que descreve o crescimento assintótico do uso de espaço em relação ao tamanho da entrada. Por exemplo, se um algoritmo tem complexidade O (n), isso significa que o uso de espaço do algoritmo cresce linearmente com o tamanho da entrada.
+      </p>
+       <p>
         A complexidade de um problema pode variar dependendo do algoritmo escolhido para resolvê-lo. Alguns problemas podem ser resolvidos de forma eficiente com algoritmos de complexidade polinomial, enquanto outros podem ser intratáveis e requerer algoritmos de complexidade exponencial.
         A análise de complexidade de problemas em relação a algoritmos é importante para avaliar a viabilidade e eficiência de diferentes abordagens para resolver um problema. Ela ajuda a identificar a melhor estratégia de resolução, considerando as restrições de tempo e espaço.</p>
+
+        <div class="referencia">
+          <h3>referência bibliográfica</h3>
+          <ul>
+              <li><a href="https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/guloso.html#:~:text=Um%20algoritmo%20guloso%20%C3%A9%20m%C3%ADope,em%20cada%20itera%C3%A7%C3%A3o%20s%C3%A3o%20definitivas">Algoritmos Gulosos</a></li>
+              <li><a href="
+                https://pt.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms">Divisão e Conquista</a></li>
+              <li><a href="https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/NPcompleto.html">Algoritmos NP</a></li>
+          </ul>
+      </div>
+         
      
     </nav>
 </section>
