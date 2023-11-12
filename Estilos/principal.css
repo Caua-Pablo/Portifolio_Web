@@ -32,9 +32,9 @@ text-align: center;
 
 
 /* Estilos para dispositivos móveis */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
     .card-container {
-        width: 100%; /* Altera a largura para ocupar 100% da largura da tela */
+        width: 50%; /* Altera a largura para ocupar 100% da largura da tela */
     }
 
     .card {
