@@ -40,7 +40,7 @@ text-align: center;
 
     /* Ajuste para dispositivos com largura máxima de 600 pixels (celulares, por exemplo) */
     .card {
-        width: 100%; /* Ocupar a largura total da tela */
+        width: 30%; /* Ocupar a largura total da tela */
     }
 
 }
