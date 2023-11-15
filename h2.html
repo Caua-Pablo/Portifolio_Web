@@ -177,8 +177,61 @@
     
     
     
+     <h2>Classes P, NP e co-NP</h2>
+     <p>
+      Por algoritmo eficiente entende-se um algoritmo polinomial.
+      Classe P:
+      classe de todos os problemas de decisão que podem ser resolvidos
+      por algoritmos polinomiais.
+      Classe NP:
+      classe de todos os problemas de decisão que possuem um
+      verificador polinomial para a resposta sim
+      Classe co-NP:
+      classe de todos os problemas de decisão que possuem um
+      verificador polinomial para a resposta não
+     </p>
+     <p>De modo simplificado, o problema pergunta se existem problemas matemáticos cuja resposta pode ser verificada em tempo polinomial, que não possam ser resolvidos (diretamente, sem se ter um candidato à solução) em tempo polinomial. Ilustrando: se alguém lhe disser que o número 13.717.421 pode ser escrito como o produto de dois outros inteiros, você provavelmente demorará para provar isso; contudo, se lhe assoprarem que ele é o produto de 3.607 por 3.803, você seria capaz de muito rapidamente verificar tal fato.
+
+      O problema "P versus NP" parte da constatação que são muito frequentes as situações em que parece ser muito mais rápido verificar solução do que achar um processo de resolução, e então pergunta: isso sempre ocorre, ou simplesmente ainda não descobrimos um modo de resolvê-los rapidamente?</p>
+    <p>A relação entre as classes de complexidade P e NP é estudada na teoria da complexidade computacional, parte da teoria da computação que lida com os recursos necessários computacionais para se resolver um determinado problema. Os recursos mais comuns são o tempo (quantos passos é preciso para se resolver um problema) e espaço (a quantidade de memória necessária para se resolver um problema). 
+      <P> Em tal análise, um modelo de computador cujo tempo deve ser analisado é necessário. Geralmente, esses modelos assumem que o computador é determinístico (dado o estado atual do computador e todas as entradas, há apenas uma ação possível que o computador pode realizar) e sequencial (executa ações uma após a outra).</P>
+     
+<p> Nesta teoria, a classe P consiste em todos os problemas de decisão (definidos abaixo) que podem ser resolvidos por uma máquina determinística sequencial em uma quantidade de tempo que é polinomial para o tamanho da entrada; a classe NP consiste em todos os problemas de decisão cujas soluções positivas podem ser verificadas em tempo polinomial dada a informação correta, ou de forma análoga, cujas soluções podem ser encontradas em tempo polinomial em uma máquina não determinística. Claramente, P ⊆ NP. Sem dúvida a maior questão sem respostas na  ciência da computação teórica se diz respeito à relação entre essas duas classes: P é igual a NP? </p>
     
-        <h2>Complexidade de Problemas</h2>
+      <p>Para atacar a questão P = NP, o conceito de NP-completude é muito útil. Problemas NP-completos são um conjunto de problemas que podem ser reduzidos em tempo polinomial a partir de qualquer outro problema NP, mas cuja solução ainda pode ser verificada em tempo polinomial. Informalmente, um problema NP-completo é pelo menos tão difícil quanto qualquer outro problema NP. Problemas NP-difíceis são aqueles ao menos tão difíceis quanto problemas NP-completos, ou seja, todos os problemas NP podem ser reduzidos (em tempo polinomial) para NP-difíceis. Problemas NP-difíceis não precisam estar em NP, ou seja, eles não precisam ter soluções verificáveis em tempo polinomial.
+
+        Por exemplo, a versão do problema de decisão do caixeiro viajante é NP-completo, portanto, qualquer instância de qualquer problema em NP pode ser transformada mecanicamente em uma instância do problema do caixeiro viajante, em tempo polinomial. O problema do caixeiro viajante é um dos muitos problemas NP-completos. Se qualquer problema NP-completo está em P, então sabe-se que P=NP. Infelizmente, muitos problemas importantes foram mostrados serem NP-completos, e até 2018 nenhum algoritmo rápido para qualquer um deles foi descoberto.
+        
+        Só com base na definição não fica claro que problemas NP-completos existem. Um trivial e artificial problema NP-completo pode ser formulado como: dada uma descrição de uma máquina de Turing M garantida para parar em tempo polinomial, existe um polinômio de entrada de tamanho M que será aceito? Este problema está em NP porque (dando uma entrada) é simples de se verificar se M aceita ou não a entrada através de uma simulação de M; é NP-completo porque o verificador para qualquer instância particular de um problema em NP pode ser codificado como uma máquina M em tempo polinomial que toma a solução para ser verificada como entrada. Então, a questão é saber se existe ou não uma instância determinada por uma entrada válida.</p>
+
+
+
+
+        <h2>Complexidade Pessimista</h2>
+       <p>
+        A complexidade pessimista de um algoritmo é uma medida que avalia o desempenho do algoritmo em seu pior cenário possível. Em outras palavras, é uma estimativa do tempo ou espaço que o algoritmo levará quando confrontado com a entrada mais desfavorável. Essa análise é crucial para entender como o algoritmo se comportará em situações críticas e para garantir que ele seja viável mesmo nos casos mais difíceis.
+      </p>
+      <p>
+        A notação Big O é frequentemente utilizada para expressar a complexidade pessimista de um algoritmo. Ela descreve a taxa de crescimento do tempo de execução (ou espaço ocupado) em relação ao tamanho da entrada, ignorando fatores constantes. Por exemplo, se um algoritmo tem uma complexidade pessimista de O(n^2), isso significa que o tempo de execução crescerá quadruplicadamente com o aumento do tamanho da entrada.
+      </p>
+      <p>Ao analisar a complexidade pessimista de um algoritmo, os casos extremos são considerados, onde o algoritmo enfrenta a situação mais desafiadora. Isso pode incluir dados de entrada ordenados de maneira específica, valores extremos ou outros cenários que levam o algoritmo a realizar o máximo de trabalho possível.</p>
+
+<p>
+  
+Entender a complexidade pessimista é crucial para a escolha e o design de algoritmos em situações críticas ou em problemas onde o desempenho é uma preocupação central. Algoritmos com complexidade pessimista menor são preferíveis, especialmente em aplicações em tempo real ou em ambientes onde os recursos são limitados.
+</p>
+<p>
+  É importante notar que a complexidade pessimista é apenas uma das medidas de desempenho de algoritmos. Outras formas de análise de desempenho, como complexidade média e complexidade melhor caso, também podem ser consideradas para ter uma compreensão abrangente do comportamento do algoritmo em diferentes cenários.
+       
+</p>
+
+
+
+
+
+
+    
+        <h2>Complexidade de Problema</h2>
     <p>
       A complexidade de um problema em relação a algoritmos refere-se à quantidade de recursos necessários para resolver o problema usando um algoritmo específico. Geralmente, a complexidade de um problema é expressa em termos de tempo de execução (complexidade temporal) e/ou uso de espaço (complexidade espacial).
       A complexidade temporal é uma medida do tempo necessário para executar um algoritmo em relação ao tamanho da entrada. Ela é geralmente expressa usando a notação O (Big O), que descreve o crescimento assintótico do tempo de execução em relação ao tamanho da entrada. Por exemplo, se um algoritmo tem complexidade O (n^2), isso significa que o tempo de execução do algoritmo cresce quadraticamente com o tamanho da entrada.
